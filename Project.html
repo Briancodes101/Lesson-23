@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <p id="myjoin"></p>
+        <p id="pop"></p>
+        <script>
+            var color = ["Yellow", "Red", "Blue", "White", "Black"]
+            document.getElementById("demo").innerHTML = color[3]
+            document.getElementById("myjoin").innerHTML = color.join(" * ")
+            color.pop();
+            document.getElementById("pop").innerHTML = color;
+            
+        </script>
+    </body>
+</html>
